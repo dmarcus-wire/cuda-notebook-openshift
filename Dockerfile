@@ -1,5 +1,5 @@
 # pull the elyra notebook image
-FROM quay.io/repository/thoth-station/s2i-lab-elyra:latest
+FROM quay.io/thoth-station/s2i-lab-elyra:latest
 # switch to root user
 USER root 
 # silent download and install nvidia container toolkit
