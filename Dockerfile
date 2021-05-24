@@ -1,4 +1,5 @@
 
+# Dockerfile started from the s2i-minimal-notebook
 FROM quay.io/thoth-station/s2i-thoth-ubi8-py38:v0.26.0
 LABEL name="s2i-minimal-notebook:latest" \
       summary="Minimal Jupyter Notebook Source-to-Image for Python 3.8 applications." \
